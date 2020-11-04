@@ -1,0 +1,23 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: arial, sans-serif;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+section.odd {
+  background-color: grey;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
